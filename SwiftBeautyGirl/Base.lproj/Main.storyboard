@@ -72,8 +72,8 @@
                                     <segue destination="jkl-ec-qe0" kind="unwind" unwindAction="closeWithSegue:" id="3y5-Ex-cKb"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="yangmi" translatesAutoresizingMaskIntoConstraints="NO" id="Luc-mp-M6L">
-                                <rect key="frame" x="27" y="64" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="yangmi" translatesAutoresizingMaskIntoConstraints="NO" id="Luc-mp-M6L">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -145,8 +145,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="japanese" translatesAutoresizingMaskIntoConstraints="NO" id="MdE-Y5-XT7">
-                                <rect key="frame" x="27" y="49" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="japanese" translatesAutoresizingMaskIntoConstraints="NO" id="MdE-Y5-XT7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -156,12 +156,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7t-Yi-2ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1010" y="718"/>
+            <point key="canvasLocation" x="1008.8" y="717.39130434782612"/>
         </scene>
         <!--韩国-->
         <scene sceneID="ZkG-pE-hbu">
             <objects>
-                <viewController id="nfT-8d-OYm" sceneMemberID="viewController">
+                <viewController id="nfT-8d-OYm" customClass="KoreanViewController" customModule="SwiftBeautyGirl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GHo-d5-Aoc"/>
                         <viewControllerLayoutGuide type="bottom" id="RSc-M9-Li4"/>
@@ -170,26 +170,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="Def-MM-cJS">
-                                <rect key="frame" x="27" y="49" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="Def-MM-cJS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="523"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKs-bQ-VlR">
+                                <rect key="frame" x="12" y="550" width="54" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="facebook"/>
+                                <connections>
+                                    <action selector="faceBookTapped:" destination="nfT-8d-OYm" eventType="touchUpInside" id="oXX-y2-dk2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcT-HP-x3p">
+                                <rect key="frame" x="160" y="550" width="54" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="twitter"/>
+                                <connections>
+                                    <action selector="twitterTapped:" destination="nfT-8d-OYm" eventType="touchUpInside" id="Wpi-nL-iNK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JX-Bw-eud">
+                                <rect key="frame" x="305" y="550" width="54" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="weibo"/>
+                                <connections>
+                                    <action selector="weiboTapped:" destination="nfT-8d-OYm" eventType="touchUpInside" id="2pC-wi-GzL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="韩国" image="torii" id="9l2-2i-kI5"/>
+                    <connections>
+                        <outlet property="imageView" destination="Def-MM-cJS" id="xVQ-Mm-SMK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dRZ-r5-95W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991" y="1451"/>
+            <point key="canvasLocation" x="989.60000000000002" y="1450.5247376311845"/>
         </scene>
     </scenes>
     <resources>
+        <image name="facebook" width="50" height="50"/>
         <image name="geisha" width="25" height="25"/>
         <image name="great_wall" width="25" height="25"/>
         <image name="japanese" width="320" height="568"/>
         <image name="korean" width="320" height="568"/>
         <image name="torii" width="25" height="25"/>
+        <image name="twitter" width="50" height="50"/>
+        <image name="weibo" width="50" height="50"/>
         <image name="yangmi" width="320" height="568"/>
     </resources>
 </document>

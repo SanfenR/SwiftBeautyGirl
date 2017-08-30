@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A28D124C1F56999800087DDA /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D124B1F56999800087DDA /* GalleryViewController.swift */; };
+		A28D124E1F56CA2400087DDA /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D124D1F56CA2400087DDA /* KoreanViewController.swift */; };
 		B3D151BA41509755FF3460C1 /* SwiftBeautyGirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15FF0B1646D9641710AA8 /* SwiftBeautyGirlTests.swift */; };
 		B3D151E84C1E36D070118A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15A61DC420F50D2ECF701 /* ViewController.swift */; };
 		B3D152B60156D7D2F0010709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D15B5CCA6A015E4A0E4885 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		7A666B51914462A5DB092EB2 /* Pods-SwiftBeautyGirlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBeautyGirlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBeautyGirlTests/Pods-SwiftBeautyGirlTests.release.xcconfig"; sourceTree = "<group>"; };
 		9B24780A9A97F5AB4E47A2FE /* Pods_SwiftBeautyGirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBeautyGirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28D124B1F56999800087DDA /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		A28D124D1F56CA2400087DDA /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 		AD0E1E9BA09D21DCE04A2D8B /* Pods-SwiftBeautyGirlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBeautyGirlUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBeautyGirlUITests/Pods-SwiftBeautyGirlUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D150019ED97948B035F79E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D1524828817384B17F3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				B3D15A61DC420F50D2ECF701 /* ViewController.swift */,
 				B3D15659E3DC41370EA290A9 /* ViewControllerExtension.swift */,
 				A28D124B1F56999800087DDA /* GalleryViewController.swift */,
+				A28D124D1F56CA2400087DDA /* KoreanViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D157344DCEB5FD2B681934 /* AppDelegate.swift in Sources */,
+				A28D124E1F56CA2400087DDA /* KoreanViewController.swift in Sources */,
 				A28D124C1F56999800087DDA /* GalleryViewController.swift in Sources */,
 				B3D151E84C1E36D070118A6A /* ViewController.swift in Sources */,
 				B3D15928CC585FB5AB871738 /* ViewControllerExtension.swift in Sources */,
