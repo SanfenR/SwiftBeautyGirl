@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jSp-mu-TWx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xNM-jr-ZUQ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -50,7 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.8" y="42.728635682158924"/>
+            <point key="canvasLocation" x="1948" y="42.728635682158924"/>
         </scene>
         <!--Gallery View Controller-->
         <scene sceneID="0i7-KO-trd">
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="yangmi" translatesAutoresizingMaskIntoConstraints="NO" id="Luc-mp-M6L">
-                                <rect key="frame" x="27" y="79" width="320" height="568"/>
+                                <rect key="frame" x="27" y="64" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -93,12 +93,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A2k-e1-yFs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="jkl-ec-qe0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1743.2" y="42.728635682158924"/>
+            <point key="canvasLocation" x="2682.4000000000001" y="42.728635682158924"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--中国-->
         <scene sceneID="R3l-p6-LsF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jSp-mu-TWx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="中国" image="great_wall" id="gWL-mf-oR8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SjA-JD-Uw1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -111,10 +112,84 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oEK-W2-yXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="69.599999999999994" y="42.728635682158924"/>
+            <point key="canvasLocation" x="1008.8" y="42.728635682158924"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="eqC-1F-rXL">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xNM-jr-ZUQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="LT6-Zy-dMC">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jSp-mu-TWx" kind="relationship" relationship="viewControllers" id="nAK-Ba-Tvh"/>
+                        <segue destination="ggA-mh-D2x" kind="relationship" relationship="viewControllers" id="xKp-NY-s78"/>
+                        <segue destination="nfT-8d-OYm" kind="relationship" relationship="viewControllers" id="ryw-yj-u1E"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7g-4D-w4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="603"/>
+        </scene>
+        <!--日本-->
+        <scene sceneID="gNI-iU-H7W">
+            <objects>
+                <viewController id="ggA-mh-D2x" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dp6-Ib-qiZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="nxM-aB-kUr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nA7-tW-zkg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="japanese" translatesAutoresizingMaskIntoConstraints="NO" id="MdE-Y5-XT7">
+                                <rect key="frame" x="27" y="49" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="日本" image="geisha" id="DcC-bH-elN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7t-Yi-2ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="718"/>
+        </scene>
+        <!--韩国-->
+        <scene sceneID="ZkG-pE-hbu">
+            <objects>
+                <viewController id="nfT-8d-OYm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GHo-d5-Aoc"/>
+                        <viewControllerLayoutGuide type="bottom" id="RSc-M9-Li4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sIf-Tv-1os">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="Def-MM-cJS">
+                                <rect key="frame" x="27" y="49" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="韩国" image="torii" id="9l2-2i-kI5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRZ-r5-95W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991" y="1451"/>
         </scene>
     </scenes>
     <resources>
+        <image name="geisha" width="25" height="25"/>
+        <image name="great_wall" width="25" height="25"/>
+        <image name="japanese" width="320" height="568"/>
+        <image name="korean" width="320" height="568"/>
+        <image name="torii" width="25" height="25"/>
         <image name="yangmi" width="320" height="568"/>
     </resources>
 </document>
