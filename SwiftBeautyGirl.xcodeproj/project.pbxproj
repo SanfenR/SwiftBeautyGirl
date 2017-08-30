@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A28D124C1F56999800087DDA /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D124B1F56999800087DDA /* GalleryViewController.swift */; };
 		B3D151BA41509755FF3460C1 /* SwiftBeautyGirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15FF0B1646D9641710AA8 /* SwiftBeautyGirlTests.swift */; };
+		B3D151E84C1E36D070118A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15A61DC420F50D2ECF701 /* ViewController.swift */; };
 		B3D152B60156D7D2F0010709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D15B5CCA6A015E4A0E4885 /* Assets.xcassets */; };
 		B3D157344DCEB5FD2B681934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15894FBB287F16FA76A3D /* AppDelegate.swift */; };
+		B3D15928CC585FB5AB871738 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15659E3DC41370EA290A9 /* ViewControllerExtension.swift */; };
 		B3D15B3EB75CB7E00E419BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D158FB3A1389FE8146FD00 /* LaunchScreen.storyboard */; };
 		B3D15CB885A9FD91A688F5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D15C7C111447CE5AB800A6 /* Main.storyboard */; };
 		B3D15D3554E4ECF9999D6636 /* SwiftBeautyGirlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15EAC1285A4C9B73B6839 /* SwiftBeautyGirlUITests.swift */; };
-		B3D15EF1D07FCCACD79E9352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15C16C9D3DE33761AA9EA /* ViewController.swift */; };
 		D8995E6CD266D30DCCD4DD8B /* Pods_SwiftBeautyGirlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6559B1466D6641B2E39FA374 /* Pods_SwiftBeautyGirlUITests.framework */; };
 		DCAF51553080DC4B1176E4E8 /* Pods_SwiftBeautyGirlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5797405F917D5195E041AD1 /* Pods_SwiftBeautyGirlTests.framework */; };
 		FCF52D7F29496D5CAD6452D1 /* Pods_SwiftBeautyGirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B24780A9A97F5AB4E47A2FE /* Pods_SwiftBeautyGirl.framework */; };
@@ -43,16 +45,18 @@
 		6E549F012DEFB4116981E93D /* Pods-SwiftBeautyGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBeautyGirl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBeautyGirl/Pods-SwiftBeautyGirl.release.xcconfig"; sourceTree = "<group>"; };
 		7A666B51914462A5DB092EB2 /* Pods-SwiftBeautyGirlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBeautyGirlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBeautyGirlTests/Pods-SwiftBeautyGirlTests.release.xcconfig"; sourceTree = "<group>"; };
 		9B24780A9A97F5AB4E47A2FE /* Pods_SwiftBeautyGirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBeautyGirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28D124B1F56999800087DDA /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		AD0E1E9BA09D21DCE04A2D8B /* Pods-SwiftBeautyGirlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBeautyGirlUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBeautyGirlUITests/Pods-SwiftBeautyGirlUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D150019ED97948B035F79E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D1524828817384B17F3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B3D15312B2098175EF316745 /* SwiftBeautyGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBeautyGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D15659E3DC41370EA290A9 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		B3D1566A75C567B98FF18CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B3D15894FBB287F16FA76A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D15914110CE5A0AA684A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D15A61DC420F50D2ECF701 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D15B5CCA6A015E4A0E4885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D15C09654311BE60D33D68 /* SwiftBeautyGirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBeautyGirlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3D15C16C9D3DE33761AA9EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D15CF992D1EE826EEDF62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B3D15DF815279CBFC2050D9D /* SwiftBeautyGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBeautyGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D15EAC1285A4C9B73B6839 /* SwiftBeautyGirlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBeautyGirlUITests.swift; sourceTree = "<group>"; };
@@ -119,7 +123,7 @@
 				B3D158FB3A1389FE8146FD00 /* LaunchScreen.storyboard */,
 				B3D15894FBB287F16FA76A3D /* AppDelegate.swift */,
 				B3D15C7C111447CE5AB800A6 /* Main.storyboard */,
-				B3D15C16C9D3DE33761AA9EA /* ViewController.swift */,
+				B3D1560DD977D61A6FA71E30 /* swift */,
 			);
 			path = SwiftBeautyGirl;
 			sourceTree = "<group>";
@@ -133,6 +137,14 @@
 			path = SwiftBeautyGirlTests;
 			sourceTree = "<group>";
 		};
+		B3D1560DD977D61A6FA71E30 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3D158CFC8CEE0F5DD56EEE9 /* controller */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
 		B3D1568FD1AE9BD3B5E742F6 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,16 @@
 				64C59EFEF29512BC5DD2469D /* Pods */,
 				CBF8774A1BB3B0B2320A9376 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		B3D158CFC8CEE0F5DD56EEE9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3D15A61DC420F50D2ECF701 /* ViewController.swift */,
+				B3D15659E3DC41370EA290A9 /* ViewControllerExtension.swift */,
+				A28D124B1F56999800087DDA /* GalleryViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		B3D15D5FA3174B34CBCDD23B /* Products */ = {
@@ -437,7 +459,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D157344DCEB5FD2B681934 /* AppDelegate.swift in Sources */,
-				B3D15EF1D07FCCACD79E9352 /* ViewController.swift in Sources */,
+				A28D124C1F56999800087DDA /* GalleryViewController.swift in Sources */,
+				B3D151E84C1E36D070118A6A /* ViewController.swift in Sources */,
+				B3D15928CC585FB5AB871738 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +701,7 @@
 				B3D15C9C3C79E7B5D85357CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D1531B2268566773611AF9 /* Build configuration list for PBXProject "SwiftBeautyGirl" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +719,7 @@
 				B3D15F703EA75AE9A0344BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D15D310116C5F5C78EFC91 /* Build configuration list for PBXNativeTarget "SwiftBeautyGirlTests" */ = {
 			isa = XCConfigurationList;
@@ -702,6 +728,7 @@
 				B3D1584EE5554A9ED7B31264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
