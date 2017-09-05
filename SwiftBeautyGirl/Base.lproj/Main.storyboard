@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="xNM-jr-ZUQ">
-    <device id="ipad10_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -207,31 +207,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="Def-MM-cJS">
-                                <rect key="frame" x="20" y="28" width="339" height="472"/>
+                                <rect key="frame" x="16" y="28" width="343" height="472"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="1QC-Ug-oLR">
                                 <rect key="frame" x="16" y="530" width="50" height="50"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="weibo" translatesAutoresizingMaskIntoConstraints="NO" id="6xR-4e-1z4">
-                                <rect key="frame" x="164" y="530" width="50" height="50"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="ktw-lY-olu">
                                 <rect key="frame" x="309" y="530" width="50" height="50"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="weibo" translatesAutoresizingMaskIntoConstraints="NO" id="6xR-4e-1z4">
+                                <rect key="frame" x="162" y="530" width="50" height="50"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ktw-lY-olu" firstAttribute="leading" secondItem="6xR-4e-1z4" secondAttribute="trailing" constant="95" id="63w-qf-Mg0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ktw-lY-olu" secondAttribute="trailing" id="A1q-cA-oh0"/>
                             <constraint firstItem="Def-MM-cJS" firstAttribute="centerX" secondItem="6xR-4e-1z4" secondAttribute="centerX" id="CRa-Kh-7NE"/>
+                            <constraint firstItem="1QC-Ug-oLR" firstAttribute="top" secondItem="Def-MM-cJS" secondAttribute="bottom" constant="30" id="Fja-Fq-QES"/>
                             <constraint firstItem="Def-MM-cJS" firstAttribute="trailing" secondItem="ktw-lY-olu" secondAttribute="trailing" id="J0T-Ad-Bvk"/>
                             <constraint firstItem="6xR-4e-1z4" firstAttribute="top" secondItem="ktw-lY-olu" secondAttribute="top" id="M5b-hu-WMW"/>
                             <constraint firstItem="Def-MM-cJS" firstAttribute="top" secondItem="0Ce-nK-gLv" secondAttribute="bottom" constant="8" symbolic="YES" id="N5t-3c-Ce2"/>
                             <constraint firstItem="Def-MM-cJS" firstAttribute="trailing" secondItem="sIf-Tv-1os" secondAttribute="trailingMargin" id="TWu-gA-xm8"/>
                             <constraint firstItem="1QC-Ug-oLR" firstAttribute="leading" secondItem="sIf-Tv-1os" secondAttribute="leadingMargin" id="UnZ-CW-Xvf"/>
-                            <constraint firstItem="1QC-Ug-oLR" firstAttribute="top" secondItem="Def-MM-cJS" secondAttribute="bottom" constant="30" id="eCc-Jl-ZNq"/>
+                            <constraint firstItem="Def-MM-cJS" firstAttribute="leading" secondItem="sIf-Tv-1os" secondAttribute="leadingMargin" id="aQJ-ff-5cL"/>
                             <constraint firstItem="1QC-Ug-oLR" firstAttribute="top" secondItem="6xR-4e-1z4" secondAttribute="top" id="eEW-zm-r1Y"/>
                             <constraint firstItem="cS6-oY-Hyl" firstAttribute="top" secondItem="1QC-Ug-oLR" secondAttribute="bottom" constant="38" id="mTU-oc-C7u"/>
                             <constraint firstItem="1QC-Ug-oLR" firstAttribute="bottom" secondItem="6xR-4e-1z4" secondAttribute="bottom" id="pui-TP-Pux"/>
+                            <constraint firstItem="Def-MM-cJS" firstAttribute="leading" secondItem="1QC-Ug-oLR" secondAttribute="trailing" constant="-50" id="znv-qx-Pom"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="韩国" image="torii" id="9l2-2i-kI5"/>
