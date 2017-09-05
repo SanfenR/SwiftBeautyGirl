@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xNM-jr-ZUQ">
-    <device id="retina3_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="xNM-jr-ZUQ">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftBeautyGirl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="9kB-Xi-iZ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="c2A-YE-N8z"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请选择女神：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZY-n1-kaz">
@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fzq-hF-Rvm">
-                                <rect key="frame" x="0.0" y="209" width="320" height="216"/>
+                                <rect key="frame" x="0.0" y="209" width="375" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0h-1y-otF">
@@ -51,18 +51,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948" y="42.728635682158924"/>
+            <point key="canvasLocation" x="1217.5" y="47.5"/>
         </scene>
         <!--Gallery View Controller-->
         <scene sceneID="0i7-KO-trd">
             <objects>
                 <viewController id="0Zr-qQ-N3X" customClass="GalleryViewController" customModule="SwiftBeautyGirl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hZr-P2-4u3"/>
-                        <viewControllerLayoutGuide type="bottom" id="bXl-wi-ZDZ"/>
+                        <viewControllerLayoutGuide type="top" id="gTx-ZN-uho"/>
+                        <viewControllerLayoutGuide type="bottom" id="fCE-8D-X9J"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5Yx-gS-qFK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDT-Bu-TxB">
@@ -94,7 +94,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A2k-e1-yFs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="jkl-ec-qe0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2682.4000000000001" y="42.728635682158924"/>
+            <point key="canvasLocation" x="1676.5" y="47.5"/>
         </scene>
         <!--中国-->
         <scene sceneID="R3l-p6-LsF">
@@ -113,7 +113,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oEK-W2-yXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.8" y="42.728635682158924"/>
+            <point key="canvasLocation" x="630.5" y="47.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="eqC-1F-rXL">
@@ -133,18 +133,18 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7g-4D-w4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9" y="603"/>
+            <point key="canvasLocation" x="-5.625" y="670.33499999999992"/>
         </scene>
         <!--日本-->
         <scene sceneID="gNI-iU-H7W">
             <objects>
                 <viewController id="ggA-mh-D2x" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dp6-Ib-qiZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="nxM-aB-kUr"/>
+                        <viewControllerLayoutGuide type="top" id="aNX-Z3-Lu9"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6R-fX-UMI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nA7-tW-zkg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="japanese" translatesAutoresizingMaskIntoConstraints="NO" id="MdE-Y5-XT7">
@@ -158,90 +158,81 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7t-Yi-2ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.8" y="717.39130434782612"/>
+            <point key="canvasLocation" x="630.5" y="797.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qHc-wJ-Xaj">
             <objects>
                 <viewController id="kSh-1u-65i" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ETt-YA-Dt3"/>
-                        <viewControllerLayoutGuide type="bottom" id="Sa0-lc-nD7"/>
+                        <viewControllerLayoutGuide type="top" id="2aw-Id-a0W"/>
+                        <viewControllerLayoutGuide type="bottom" id="jl4-6e-nwe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fIe-TN-ySe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gb5-yh-pjp">
-                                <rect key="frame" x="16" y="430" width="288" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gb5-yh-pjp">
+                                <rect key="frame" x="20" y="1062" width="794" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GpS-mq-hAQ">
-                                <rect key="frame" x="16" y="40" width="288" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GpS-mq-hAQ">
+                                <rect key="frame" x="20" y="40" width="794" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="GpS-mq-hAQ" firstAttribute="leading" secondItem="fIe-TN-ySe" secondAttribute="leadingMargin" id="393-Uy-umD"/>
-                            <constraint firstItem="Sa0-lc-nD7" firstAttribute="top" secondItem="Gb5-yh-pjp" secondAttribute="bottom" constant="20" id="D8d-QE-Kun"/>
-                            <constraint firstItem="GpS-mq-hAQ" firstAttribute="leading" secondItem="Gb5-yh-pjp" secondAttribute="leading" id="KJ3-LT-tay"/>
-                            <constraint firstItem="GpS-mq-hAQ" firstAttribute="top" secondItem="ETt-YA-Dt3" secondAttribute="bottom" constant="20" id="fAH-05-NgO"/>
-                            <constraint firstItem="GpS-mq-hAQ" firstAttribute="centerX" secondItem="fIe-TN-ySe" secondAttribute="centerX" id="q9T-wn-5Pw"/>
-                            <constraint firstItem="GpS-mq-hAQ" firstAttribute="trailing" secondItem="Gb5-yh-pjp" secondAttribute="trailing" id="wpk-cr-0HI"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LCR-mP-vKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1202.4000000000001" y="2137.7811094452777"/>
+            <point key="canvasLocation" x="-751.5" y="2376.5"/>
         </scene>
         <!--韩国-->
         <scene sceneID="ZkG-pE-hbu">
             <objects>
                 <viewController id="nfT-8d-OYm" customClass="KoreanViewController" customModule="SwiftBeautyGirl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GHo-d5-Aoc"/>
-                        <viewControllerLayoutGuide type="bottom" id="RSc-M9-Li4"/>
+                        <viewControllerLayoutGuide type="top" id="0Ce-nK-gLv"/>
+                        <viewControllerLayoutGuide type="bottom" id="cS6-oY-Hyl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sIf-Tv-1os">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="Def-MM-cJS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="523"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="Def-MM-cJS">
+                                <rect key="frame" x="20" y="28" width="339" height="472"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKs-bQ-VlR">
-                                <rect key="frame" x="12" y="550" width="54" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="facebook"/>
-                                <connections>
-                                    <action selector="faceBookTapped:" destination="nfT-8d-OYm" eventType="touchUpInside" id="oXX-y2-dk2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcT-HP-x3p">
-                                <rect key="frame" x="160" y="550" width="54" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="twitter"/>
-                                <connections>
-                                    <action selector="twitterTapped:" destination="nfT-8d-OYm" eventType="touchUpInside" id="Wpi-nL-iNK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JX-Bw-eud">
-                                <rect key="frame" x="305" y="550" width="54" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="weibo"/>
-                                <connections>
-                                    <action selector="weiboTapped:" destination="nfT-8d-OYm" eventType="touchUpInside" id="2pC-wi-GzL"/>
-                                </connections>
-                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="1QC-Ug-oLR">
+                                <rect key="frame" x="16" y="530" width="50" height="50"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="weibo" translatesAutoresizingMaskIntoConstraints="NO" id="6xR-4e-1z4">
+                                <rect key="frame" x="164" y="530" width="50" height="50"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="ktw-lY-olu">
+                                <rect key="frame" x="309" y="530" width="50" height="50"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ktw-lY-olu" firstAttribute="leading" secondItem="6xR-4e-1z4" secondAttribute="trailing" constant="95" id="63w-qf-Mg0"/>
+                            <constraint firstItem="Def-MM-cJS" firstAttribute="centerX" secondItem="6xR-4e-1z4" secondAttribute="centerX" id="CRa-Kh-7NE"/>
+                            <constraint firstItem="Def-MM-cJS" firstAttribute="trailing" secondItem="ktw-lY-olu" secondAttribute="trailing" id="J0T-Ad-Bvk"/>
+                            <constraint firstItem="6xR-4e-1z4" firstAttribute="top" secondItem="ktw-lY-olu" secondAttribute="top" id="M5b-hu-WMW"/>
+                            <constraint firstItem="Def-MM-cJS" firstAttribute="top" secondItem="0Ce-nK-gLv" secondAttribute="bottom" constant="8" symbolic="YES" id="N5t-3c-Ce2"/>
+                            <constraint firstItem="Def-MM-cJS" firstAttribute="trailing" secondItem="sIf-Tv-1os" secondAttribute="trailingMargin" id="TWu-gA-xm8"/>
+                            <constraint firstItem="1QC-Ug-oLR" firstAttribute="leading" secondItem="sIf-Tv-1os" secondAttribute="leadingMargin" id="UnZ-CW-Xvf"/>
+                            <constraint firstItem="1QC-Ug-oLR" firstAttribute="top" secondItem="Def-MM-cJS" secondAttribute="bottom" constant="30" id="eCc-Jl-ZNq"/>
+                            <constraint firstItem="1QC-Ug-oLR" firstAttribute="top" secondItem="6xR-4e-1z4" secondAttribute="top" id="eEW-zm-r1Y"/>
+                            <constraint firstItem="cS6-oY-Hyl" firstAttribute="top" secondItem="1QC-Ug-oLR" secondAttribute="bottom" constant="38" id="mTU-oc-C7u"/>
+                            <constraint firstItem="1QC-Ug-oLR" firstAttribute="bottom" secondItem="6xR-4e-1z4" secondAttribute="bottom" id="pui-TP-Pux"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="韩国" image="torii" id="9l2-2i-kI5"/>
                     <connections>
@@ -250,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dRZ-r5-95W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989.60000000000002" y="1450.5247376311845"/>
+            <point key="canvasLocation" x="616.5" y="1610.5"/>
         </scene>
     </scenes>
     <resources>
@@ -264,4 +255,9 @@
         <image name="weibo" width="50" height="50"/>
         <image name="yangmi" width="320" height="568"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>
